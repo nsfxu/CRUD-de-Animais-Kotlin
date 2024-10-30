@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="silver">#A8A8A8</color>
+
+    <color name="primaryBtn">#333333</color>
+    <color name="secondaryBtn">#404040</color>
+
+    <color name="primaryBg">#262626</color>
+    <color name="secondaryBg">#4d4d4d</color>
+
+    <color name="primaryLbl">#f1f1f1</color>
+    <color name="secondaryLbl">#524A4E</color>
+
+    <color name="hintColor">#676365</color>
+</resources>

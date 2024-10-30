@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBg"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".AnimalSelecionadoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="LISTAGEM DE ANIMAL"
+        android:textAlignment="center"
+        android:textColor="@color/primaryLbl"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/lblNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryLbl"
+        android:textSize="18sp"
+        android:text="Nome do animal" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:inputType="text"
+        android:textColor="@color/secondaryLbl"
+        android:textColorHint="@color/hintColor"
+        android:hint="Digite o novo nome do animal" />
+
+    <TextView
+        android:id="@+id/lblRaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryLbl"
+        android:textSize="18sp"
+        android:text="Raça do animal" />
+
+    <EditText
+        android:id="@+id/etRaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:inputType="text"
+        android:textColor="@color/secondaryLbl"
+        android:textColorHint="@color/hintColor"
+        android:hint="Digite a nova raça do animal" />
+
+    <TextView
+        android:id="@+id/lblIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryLbl"
+        android:textSize="18sp"
+        android:text="Idade do animal" />
+
+    <EditText
+        android:id="@+id/etIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:inputType="text"
+        android:textColor="@color/secondaryLbl"
+        android:textColorHint="@color/hintColor"
+        android:hint="Digite a idade do animal" />
+
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/secondaryBtn"
+        android:text="Atualizar"
+        android:textColor="@color/primaryLbl" />
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/secondaryBtn"
+        android:text="Deletar"
+        android:textColor="@color/primaryLbl" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/primaryBtn"
+        android:text="Voltar"
+        android:textColor="@color/primaryLbl" />
+
+</LinearLayout>
